@@ -18,3 +18,19 @@ h3 {
 p {
   font-size: 1em;
 }
+
+table {
+  border-spacing: 0px;
+}
+
+.endangered-species {
+  color: deeppink;
+}
+
+svg {
+  border: 1px solid black;
+}
+
+td {
+  border-bottom: 1px solid black;
+}
