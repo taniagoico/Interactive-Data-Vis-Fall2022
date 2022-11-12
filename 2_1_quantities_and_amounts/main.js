@@ -4,6 +4,7 @@ const width = window.innerWidth *.8;
 const height = 500;
 const margin = 30;
 
+
 /* LOAD DATA */
 d3.csv('../data/squirrelActivities.csv', d3.autoType)
   .then(data => {
