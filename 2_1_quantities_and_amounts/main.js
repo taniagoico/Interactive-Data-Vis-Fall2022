@@ -2,7 +2,7 @@
 /* CONSTANTS AND GLOBALS */
 const width = window.innerWidth *.8;
 const height = 500;
-const margin = 30;
+const margin = 35;
 
 
 /* LOAD DATA */
