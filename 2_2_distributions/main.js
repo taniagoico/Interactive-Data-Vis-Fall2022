@@ -90,7 +90,7 @@ d3.csv("../data/cereal.csv", d3.autoType)
 
        svg.append("text")
        .attr("transform", "rotate(-90)")
-       .attr("y", 0 - margin.left)
+       .attr("y", 0 - margin)
        .attr("x",0 - (height / 2))
        .attr("dy", "0em")
        .style("text-anchor", "middle")
