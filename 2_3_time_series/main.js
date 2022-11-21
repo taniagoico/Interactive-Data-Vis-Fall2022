@@ -84,7 +84,7 @@ d3.csv('../data/Primary-energy-consumption-from-fossilfuels-nuclear-renewables.c
     .attr("x",0 - (height / 2))
     .attr("dy", "1em")
     .style("text-anchor", "middle")
-    .text("% Consumption from Fossil Fuels");
+    .text("Percentage from Fossil Fuels");
 
 svg.append("g")
    .style("transform",`translate(0px,${height-margin.bottom}px)`)
