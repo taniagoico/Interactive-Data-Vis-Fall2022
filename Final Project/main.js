@@ -29,7 +29,7 @@ Promise.all([
  d3.json("../data/NTA_NYC.json")
 ]).then(([geojson]) => {
  nta.geojson = geojson;
- console.log("nta: ", nta);
+//  console.log("nta: ", nta);
  init();
 });
 
